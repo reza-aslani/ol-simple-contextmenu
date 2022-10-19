@@ -1,10 +1,12 @@
 {
   "name": "ol-simple-contextmenu",
-  "version": "1.1.1",
+  "version": "1.1.3",
   "description": "A simple contextmenu for openlayers 7",
   "main": "index.ts",
+  "types": "index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "tsc"
   },
   "keywords": [
     "ol",
@@ -17,5 +19,13 @@
   ],
   "author": "Reza Aslani",
   "license": "ISC",
-  "repository": {"url": "https://github.com/reza-aslani/ol-simple-contextmenu"}
+  "repository": {
+    "url": "https://github.com/reza-aslani/ol-simple-contextmenu"
+  },
+  "peerDependencies": {
+    "ol": "^7.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
 }
