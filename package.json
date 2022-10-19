@@ -1,6 +1,6 @@
 {
   "name": "ol-simple-contextmenu",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A simple contextmenu for openlayers 7",
   "main": "index.ts",
   "scripts": {
