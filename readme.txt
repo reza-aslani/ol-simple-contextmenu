@@ -1,5 +1,15 @@
 
+A very simple,one level context menu for openlayesr.
+It's an ol Overlay , so you should add it to map.overlays.
+
 Usage:
+
+import 'ol-simple-contextmenu/ol-simple-contextmenu.css'
+import CreateContextMenuOverlay, { MenuItem } from './ol-simple-contextmenu';
+
+.
+.
+.
 
 const createMenuItems = (evt: EventsKey, coordinate: Coordinate, features: FeatureLike[]): MenuItem[] => {
 
