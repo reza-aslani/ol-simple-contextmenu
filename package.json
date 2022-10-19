@@ -16,5 +16,6 @@
     "menu"
   ],
   "author": "Reza Aslani",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {"url": "https://github.com/reza-aslani/ol-simple-contextmenu"}
 }
